@@ -9,6 +9,7 @@
     MERN STACT - Mongo Express React Node
     Rest Api 
     Sass for Design and Animation
+    Semantic UI for CSS framework
     SuperHero Api ( https://superheroapi.com/ )
     Axios
 
