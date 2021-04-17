@@ -43,7 +43,7 @@
 
 ## Live Demo 
 
-    [Click For Live Demo](#https://superhero-mern.herokuapp.com)
+    [Click For Live Demo](https://superhero-mern.herokuapp.com)
      
 ## Author 
     Amrit Regmi 
