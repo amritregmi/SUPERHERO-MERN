@@ -17,7 +17,7 @@
 ## Installation
 
     ###  Clone the Repo 
-        $ git clone ...
+        $ git clone https://github.com/amritregmi/SUPERHERO-MERN
 
     ### Run The Client 
         $ cd superhero-client
