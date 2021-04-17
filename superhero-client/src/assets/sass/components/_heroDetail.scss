@@ -1,0 +1,29 @@
+.hero-detail{
+    display: flex !important;
+    align-items: center !important;
+    padding: 20px;
+    @include customBorderShadow-1;
+    animation: moveInLeft 1s ease-out;
+    &__image{
+        max-width: 250px;
+        animation: moveInBottom 2s ease-out;
+        transition: transform .9s ease-in-out;
+        &:hover{
+            transform: rotate(380deg);
+        }
+    }
+    &__description{
+        background-color: yellow !important;
+        margin-left: 40px !important;
+        animation: moveInLeft 1s ease-out;
+        .shake{
+            @include shakeItem--infinite
+        }
+    }
+    &__fly{
+        @include fly-icon
+    }
+    .content{
+        text-align: right !important;
+    }
+}

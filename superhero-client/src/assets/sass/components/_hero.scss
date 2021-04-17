@@ -1,0 +1,19 @@
+.hero{
+    display: flex !important;
+    align-items: center !important;
+    cursor: pointer;
+    background-color: #eee;
+    animation: moveInRight 2s ease-out;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    p{
+        color: $color-tertiary-dark;
+    }
+}
+.hero.item img {
+    max-width: 40px;
+} 
+.hero-list{
+    @include customBorderShadow-2;
+}

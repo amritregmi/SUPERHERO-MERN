@@ -1,0 +1,16 @@
+.search{
+    animation: moveInBottom 1s ease-out;
+    input{
+        color: $color-tertiary-dark !important;
+        font-size: 1.8rem !important;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 10px;
+        box-shadow:0 0 15px 4px rgba(0,0,0,0.06) !important;
+        border-radius:10px !important;
+    }
+    &__message{
+        @include shakeItem--3
+    }
+}

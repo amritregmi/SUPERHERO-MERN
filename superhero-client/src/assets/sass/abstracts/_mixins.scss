@@ -1,0 +1,42 @@
+@mixin customBorderShadow-1 {
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.5); // x y blur color opacity
+  }
+  
+  @mixin customBorderShadow-2 {
+    box-shadow: 0.5rem 0rem 1rem rgba($color-black, 0.3); // x y blur color opacity
+  }
+  
+  @mixin customBorderShadow-3 {
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.5); // x y blur color opacity
+  }
+  
+  @mixin shakeItem--3 {
+    animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+    animation-iteration-count: 3;
+  }
+  @mixin shakeItem--infinite {
+    animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+    animation-iteration-count: infinite;
+  }
+  @mixin fly-icon {
+    animation: fly 2s ease forwards;
+    animation-iteration-count: infinite;
+  }
+
+  @mixin animateOnHover {
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+  
+      &::after {
+        transform: scaleX(1.4) scaleY(1.6);
+        opacity: 0;
+      }
+    }
+  }
