@@ -1,4 +1,4 @@
-# Super Hero App - MERN STACK
+# Super Hero App - MERN STACK 
 
     User are able to Search for their super hero 
     Use are able to save the super hero 
@@ -40,10 +40,9 @@
             PORT = 3030
             DB = mongodb+srv://amrit:amrit@cluster0.et9tw.mongodb.net/vuedb?retryWrites=true&w=majority
         ```
-
-## Live Demo 
-
-    [Click For Live Demo](https://superhero-mern.herokuapp.com)
+## Live Demo
+    
+   ### https://superhero-mern.herokuapp.com
      
 ## Author 
     Amrit Regmi 
