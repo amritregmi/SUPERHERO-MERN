@@ -10,9 +10,8 @@
     Rest Api 
     Sass for Design and Animation
     Semantic UI for CSS framework
-    SuperHero Api ( https://superheroapi.com/ )
     Axios
-
+[superheroAPI](https://superheroapi.com/ )
 
 ## Installation
 
@@ -40,10 +39,18 @@
             PORT = 3030
             DB = mongodb+srv://amrit:amrit@cluster0.et9tw.mongodb.net/vuedb?retryWrites=true&w=majority
         ```
-## Live Demo
-    
-   ### https://superhero-mern.herokuapp.com
-     
+## Live Preview
+   
+   [Live Demo](https://superhero-mern.herokuapp.com)
+   
+## Design Document 
+
+   [System Design Document](/system-design.png) 
+   
+   [Front end Design](/front-end-design.png)
+   
+   [Data Flow Diagram](/data-flow-diagram.png)
+   
 ## Author 
     Amrit Regmi 
 
