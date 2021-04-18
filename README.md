@@ -21,23 +21,23 @@
     ### Run The Client 
         $ cd superhero-client
         $ npm install 
-        $ npm run 
+        $ npm run build
 
     ### Run the Node server
         $ cd superhero-api
         $ npm install
-        $ npm run start:dev
+        $ npm run start
 
     ### Database configuration 
 
         #### Create an env file in root (.env, package.json, app.js, server.js)
             $ touch .env 
         
-        #### Paste the following code !! (For Testing app only, contains sensitive info)
-
+        #### (For this app .env is provided, If not update USERNAME, PASSWORD and DB_NAME as required)
+               Paste the following code.
         ```
             PORT = 3030
-            DB = mongodb+srv://amrit:amrit@cluster0.et9tw.mongodb.net/vuedb?retryWrites=true&w=majority
+            DB = mongodb+srv://USERNAME:PASSWORD@cluster0.et9tw.mongodb.net/DB_NAME?retryWrites=true&w=majority
         ```
 ## Live Preview
    
